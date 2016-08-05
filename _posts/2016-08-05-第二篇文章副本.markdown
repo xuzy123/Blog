@@ -4,11 +4,48 @@ title:  "个人博客!"
 date:   2016-08-05 16:35:13 +0800
 categories: jekyll update
 ---
-#标题1
-我的任务是什么呢？
+#为mac安装Jekyll
+本文是在已经安装Gem的情况下的安装方法。
 
-###插入链接
-[baidu](http:www.baidu.com)
+安装jekyll
+按照官网命令 gem install jekyll 安装执行不了。
 
-###插入图片
+1.搜索资料后输入以下命令:sudo gem install jekyll
+
+输入密码，又出现以下错误
+While executing gem ... (Errno::EPERM)
+Operation not permitted - /usr/bin/rougify
+
+2.再次搜索资料后输入以下命令:sudo - gem install -n /usr/local/bin jekyll
+
+安装过程中终端输出:
+Successfully installed rouge-1.11.1
+Fetching: colorator-1.1.0.gem (100%)
+Successfully installed colorator-1.1.0
+Fetching: liquid-3.0.6.gem (100%)
+Successfully installed liquid-3.0.6
+Fetching: jekyll-3.2.1.gem (100%)
+Successfully installed jekyll-3.2.1
+Parsing documentation for rouge-1.11.1
+Installing ri documentation for rouge-1.11.1
+Parsing documentation for colorator-1.1.0
+Installing ri documentation for colorator-1.1.0
+Parsing documentation for liquid-3.0.6
+Installing ri documentation for liquid-3.0.6
+Parsing documentation for jekyll-3.2.1
+Installing ri documentation for jekyll-3.2.1
+4 gems installed
+
+成功安装。
+
+###MarkDwon插入图片
+将图片放在github上面，找到github上图片资源的链接，然后使用此链接，方法比较low,不过算是一种尝试。
+
+代码如下：
+
+`![插入GitHub](https://raw.githubusercontent.com/xuzy123/Blog/gh-pages/assets/pic.png)
+`
+
+效果如下：
+
 ![插入GitHub](https://raw.githubusercontent.com/xuzy123/Blog/gh-pages/assets/pic.png)
