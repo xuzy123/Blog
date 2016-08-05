@@ -11,4 +11,4 @@ categories: jekyll update
 [baidu](http:www.baidu.com)
 
 ###插入图片
-![插入本地图片截图]({{ site.url }}/assets/pic.png)
+![插入GitHub](https://raw.githubusercontent.com/xuzy123/Blog/gh-pages/assets/pic.png)
