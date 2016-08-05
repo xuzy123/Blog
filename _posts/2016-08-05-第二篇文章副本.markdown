@@ -13,27 +13,45 @@ categories: jekyll update
 1.搜索资料后输入以下命令:sudo gem install jekyll
 
 输入密码，又出现以下错误
+
 While executing gem ... (Errno::EPERM)
+
 Operation not permitted - /usr/bin/rougify
 
 2.再次搜索资料后输入以下命令:sudo - gem install -n /usr/local/bin jekyll
 
 安装过程中终端输出:
+
 Successfully installed rouge-1.11.1
+
 Fetching: colorator-1.1.0.gem (100%)
+
 Successfully installed colorator-1.1.0
+
 Fetching: liquid-3.0.6.gem (100%)
+
 Successfully installed liquid-3.0.6
+
 Fetching: jekyll-3.2.1.gem (100%)
+
 Successfully installed jekyll-3.2.1
+
 Parsing documentation for rouge-1.11.1
+
 Installing ri documentation for rouge-1.11.1
+
 Parsing documentation for colorator-1.1.0
+
 Installing ri documentation for colorator-1.1.0
+
 Parsing documentation for liquid-3.0.6
+
 Installing ri documentation for liquid-3.0.6
+
 Parsing documentation for jekyll-3.2.1
+
 Installing ri documentation for jekyll-3.2.1
+
 4 gems installed
 
 成功安装。
