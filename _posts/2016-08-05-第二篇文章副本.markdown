@@ -11,4 +11,4 @@ categories: jekyll update
 [baidu](http:www.baidu.com)
 
 ###插入图片
-![Dog](https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1470398181719&di=e630124de966259839a81ea820d420de&imgtype=jpg&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fcc11728b4710b912ae8c9fabc5fdfc0392452211.jpg)
+![插入本地图片截图]({{ site.url }}/assets/pic.png)
